@@ -7,9 +7,6 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   darkMode: 'class',
-  corePlugins: {
-    preflight: false, // Tắt các CSS mặc định
-  },
   theme: {
     extend: {
       backgroundImage: {
